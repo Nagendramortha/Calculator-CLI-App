@@ -53,7 +53,7 @@ def calculator():
 
     while True:
         display_menu()
-        choice = input("\nEnter your choice (1-6): ").strip().islower()
+        choice = input("\nEnter your choice (1-6): ").strip()
 
         if choice == '6':
             print("👋 Exiting Calculator. Goodbye!")
